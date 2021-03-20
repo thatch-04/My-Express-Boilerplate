@@ -23,7 +23,7 @@ const app = express();
 //Set View Engine
 //////////////////////////////
 
-app.set("view enginer", "ejs");
+app.set("view engine", "ejs");
 
 //////////////////////////////
 //Set up middleware
