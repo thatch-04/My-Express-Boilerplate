@@ -34,3 +34,10 @@ mongoose.connection
 .on("close", () => log.red("STATUS", "Connetion closed"))
 //event for errors
 .on("error", error => log.red("ERROR", error))
+
+
+/////////////////////////////////
+//Export Connection
+/////////////////////////////////
+
+module.exports = mongoose;
